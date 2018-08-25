@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Federico Ferreiro">
+    <meta name="description" content="Hoja de Vida de Federico Ferreiro">
+    <title>index</title>
+</head>
+<header>
+    <svg width="300" heigth="200">
+        <image xlink:href="../img/logo.svg" width="200px" 	height="200px" x="0" y="0"></image>
+    </svg>
+    <h1>Hoja de Vida</h1>
+</header>
+    <h2>Federico Daniel Ferreiro</h2>
+    <h3>Buenos Aires 30/06/1994</h3>
+<body>
+    <ol>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educacion</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+    </ol>
+
+    <h2>Educacion</h2>
+    <table border="1", cellpadding="10", cellspacing="0">
+        <thead>
+            <th><h2>Año</h2></th>
+            <th><h2>Institucion</h2></th>
+            <th><h2>Lugar</h2></th>
+            <th><h2>¿Culminó?</h2></th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2003</td>
+                <td>ISFA</td>
+                <td>Argentina</td>
+                <td>Si</td>
+            </tr>
+            <tr>
+                <td>2008</td>
+                <td>CPD</td>
+                <td>Argentina</td>
+                <td>Si</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form>
+        <h2>Agregar estudios</h2>
+        <label for="año"><strong>Año:</strong></label>
+        <select name="listaOp">
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+        </select><br>
+        <label for="institucion"><strong>Institucion:</strong></label>
+        <input type="text" placeholder="Ej: Colegio Nuestra Santa Trinidad" required><br>
+        <label for="lugar"><strong>Lugar:</strong></label><br>
+        <textarea name="lugar" cols="50" rows="5"></textarea><br>
+        <input type="button" value="Enviar">
+    </form>
+</body>
+<footer>
+    <p style="text-align:center">Mail: fefe.ferreiro123@gmail.com  ~~  Instagram: fefe3006</p>
+</footer>
+</html>

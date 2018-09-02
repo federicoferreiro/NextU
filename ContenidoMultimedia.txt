@@ -1,0 +1,54 @@
+AUDIO
+
+atributo CONTROLS --> permite tener la barra de manejo 
+	 AUTOPLAY --> reproduce apenas abre el sitio
+	 LOOP --> reproduce el audio siempre que termine
+	 PRELOAD --> almacena los archivos en memoria temporal (NONE o AUTO)
+
+
+
+<audio src="..." controls></audio>
+
+
+
+VIDEO
+
+Atributos: mismos que audio pero se suman
+
+WIDTH --> ancho
+HEIGHT --> alto
+POSTER --> para poner la ruta de una imagen que sera mostrada en caso que el nav no pueda cargar el video
+
+
+<video src="..." controls></video>
+
+
+
+
+SOURCE
+
+esta etiqueta es anulada por el atributo SRC si esta presente en video
+
+<video controls ....>
+	<source src="video.ogv" type="video/ogg">
+	<source src="video.webm" type="video/webm">
+	<source src="video.mp4" type="video/mp4">
+	BLABLABLA (texto por si no sirve ningun formato)
+</video>
+
+
+
+
+
+
+IFRAME
+
+Inscrustar paginas externas en nuestras paginas
+
+
+<iframe src="..."></iframe>
+
+
+
+
+

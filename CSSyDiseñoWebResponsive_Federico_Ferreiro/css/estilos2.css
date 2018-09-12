@@ -1,0 +1,141 @@
+html{
+    background-color: #02010a;
+}
+body{
+    width: 80%;
+    margin-left: 10%;
+    font-family: Dancing Script;
+}
+header{
+    background-color: #5b7989;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
+header #menu .item{
+    color: white;
+}
+#menu .item{
+    text-decoration:none;
+}
+
+.C1{    
+    margin: 20px;
+}
+
+.C1 #imagen1{
+    height: 30%;
+    width: 100%;
+    -webkit-filter:blur(10px);
+	filter:blur(10px);
+}
+
+.C1 #imagen2, #imagen4, #imagen6{
+    height: 30%;
+    width: 100%;
+    -webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+
+.C1 #imagen3{
+    height: 30%;
+    width: 100%;
+    -webkit-filter:sepia(90%);
+	filter:sepia(90%);
+}
+
+.C1 #imagen5{
+    height: 30%;
+    width: 100%;
+}
+
+
+@media only screen and (min-width:900px){
+
+#contenido{
+    align-content: center;
+    width:  100%;
+}
+header #menu{
+    text-align: right;
+}
+
+header h1{
+    text-align: left;
+    text-shadow: 2px 2px 2px #02010a, 0 0 30px #02010a;
+}
+
+
+C3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    background-color: #d5c75f;
+    border: 1px solid;
+    width: 100%;
+}
+
+.fila1{
+    display:flex; 
+    flex-direction:row;
+    background-color: #d5c75f;
+    justify-content: space-around;
+    align-items: center;
+}
+.fila2{
+    display:flex; 
+    flex-direction:row;
+    background-color: #d5c75f;
+    justify-content: space-around;
+    align-items: center;
+}
+footer{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #C6d5c5;
+    justify-content:space-around;
+}
+
+}
+
+@media (max-width:900px){
+    #contenido{
+        align-content: center;
+        width: 900px;
+    }
+   
+    header #menu{
+        text-align: center;
+    }
+
+    header h1{
+        text-align: center;
+        text-shadow: 2px 2px 2px #02010a, 0 0 30px #02010a;
+    }
+
+    .C3{
+        display: flex;
+        align-items: center;    
+        background-color: #d5c75f;
+        border: 1px solid;
+        width: 100%;
+        flex-direction:column;
+    }
+
+    footer{
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        background-color: #C6d5c5;
+        text-align: justify ;
+    }
+     footer div{
+         margin-left: 20%;
+     }
+
+}

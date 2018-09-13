@@ -56,7 +56,7 @@ header #menu .item{
 
 #contenido{
     align-content: center;
-    width:  100%;
+    width:  900px;
 }
 header #menu{
     text-align: right;
@@ -105,7 +105,7 @@ footer{
 @media (max-width:900px){
     #contenido{
         align-content: center;
-        width: 900px;
+        width: 100%;
     }
    
     header #menu{

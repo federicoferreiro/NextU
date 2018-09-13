@@ -1,11 +1,13 @@
 html{
     background-color: #02010a;
 }
+
 body{
     width: 80%;
     margin-left: 10%;
     font-family: Dancing Script;
 }
+	
 header{
     background-color: #5b7989;
     border-top-left-radius: 10px;
@@ -73,7 +75,7 @@ header #menu .item{
 
 #contenido{
     align-content: center;
-    width:  100%;
+    width:  900px;
 }
 header #menu{
     text-align: right;
@@ -106,9 +108,10 @@ footer{
 }
 
 @media (max-width:900px){
-    #contenido{
+
+	#contenido{
         align-content: center;
-        width: 900px;
+        width: 100%;
     }
    
     header #menu{
